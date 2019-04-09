@@ -8,9 +8,20 @@ FROM [codenvy/ubuntu_jdk8](https://hub.docker.com/r/codenvy/hadoop-dev/)
 
 # Commands
 
-| #       | Description           | Command  |
-| :------------- |:-------------| :-----|
-| 1      | Build and Run | `cd ${current.project.path} && mvn clean install && mvn exec:java -Dexec.mainClass="com.javacodegeeks.examples.wordcount.WordCount"` |
+1. Para correr el programa debe generar una maquina en codenvy, ya generada importamos el proyecto y lo montamos en el workspace
+2. ejecutamos el siguiente comando para correr maven.
+```
+mvn -f /projects/NosqlExample clean install
+```
+3. ejecutamos el siguiente comando para correr hadoop con su repectivo jre.
+```
+cd /projects/NosqlExample
+mvn exec:java -Dexec.mainClass='org.eclipse.che.wordcount.WordCount'
+```
+
+En el link a continuacion hay un video en donde se muestran los pasos a seguir.
+
+
 
 # Forma local 
 Este ejemplo por su sencillez es conocido como el "hello world" de hadoop y y MapReduce.
