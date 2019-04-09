@@ -17,10 +17,11 @@ Este ejemplo por su sencillez es conocido como el "hello world" de hadoop y y Ma
 si deseas correrlo en local tener en cuenta 
 
 mvn clean install 
-1: Se crea proyecto en java applications
+
+# 1: Se crea proyecto en java applications
 mvn exec:java -Dexec.mainClass="com.javacodegeeks.examples.wordcount.WordCoun
 
-las variables de entorno las cuales tienes que tener instaladas 
+# 2 las variables de entorno las cuales tienes que tener instaladas 
 http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.7/hadoop-2.7.7.tar.gz
 
 el jdk de java
@@ -30,15 +31,15 @@ un editor de codigo como neatbeans o eclipse y instalar las dependencia
 Se instala hadoop se ingresa a la carpeta donde esta instalado y ingresa a las carpetas correspondientes
 hadoop/share/hadoop/common 
 
-3:Se instala hadoop se ingresa a la carpeta donde esta instalado y ingresa a las carpetas correspondientes
+# 3:Se instala hadoop se ingresa a la carpeta donde esta instalado y ingresa a las carpetas correspondientes
 hadoop/share/hadoop/common 
 
-4:agrega las librerias que se ven en la carpeta las cuales son
+# 4:agrega las librerias que se ven en la carpeta las cuales son
 hadoop-common-2.8.2.jar
 hadoop-common-2.8.2.test.jar
 hadoop-nfs-2.8.2.jar
 
-5:despues de agregar estas librerias el siguiente paso es agregar las librerias de otra carpeta
+# 5:despues de agregar estas librerias el siguiente paso es agregar las librerias de otra carpeta
 hadoop/share/hadoop/mapreduce
 las librerias son
 hadoop-mapreduce-client-app-2.8.2.jar
