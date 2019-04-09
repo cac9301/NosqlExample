@@ -4,7 +4,7 @@
 
 # Run on Codenvy 
 
-FROM [codenvy/ubuntu_jdk8](https://hub.docker.com/r/codenvy/hadoop-dev/)
+FROM [codenvy/hadoop-dev](https://hub.docker.com/r/codenvy/hadoop-dev/)
 
 # Commands
 
@@ -21,7 +21,7 @@ mvn exec:java -Dexec.mainClass='org.eclipse.che.wordcount.WordCount'
 
 En el link a continuacion hay un video en donde se muestran los pasos a seguir.
 
-
+[Video guia hadoop word count](https://drive.google.com/file/d/1Yfk_oedMRYEaWKmn_TKLFc9kfAhgMjmi/view?usp=sharing)
 
 # Forma local 
 Este ejemplo por su sencillez es conocido como el "hello world" de hadoop y y MapReduce.
