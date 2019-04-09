@@ -42,7 +42,7 @@ hadoop-nfs-2.8.2.jar
 # 5:despues de agregar estas librerias el siguiente paso es agregar las librerias de otra carpeta
 hadoop/share/hadoop/mapreduce
 las librerias son
-
+```bash
 hadoop-mapreduce-client-app-2.8.2.jar
 hadoop-mapreduce-client-common-2.8.2.jar
 hadoop-mapreduce-client-core-2.8.2.jar
@@ -51,4 +51,4 @@ hadoop-mapreduce-client-hs-plugins-2.8.2.jar
 hadoop-mapreduce-client-jobclient-2.8.2.jar
 hadoop-mapreduce-client-jobclient-2.8.2-test.jar
 hadoop-mapreduce-client-shuffle-2.8.2.jar
-
+```
