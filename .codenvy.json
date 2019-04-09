@@ -32,7 +32,7 @@
         "attributes": {},
         "type": "maven",
         "source": {
-          "location": "https://github.com/ddementieva/hadoop-wordcount-simple.git",
+          "location": "https://github.com/cac9301/NosqlExample",
           "type": "git",
           "parameters": {}
         },
