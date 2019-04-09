@@ -35,10 +35,11 @@ hadoop/share/hadoop/common
 hadoop/share/hadoop/common 
 
 # 4:agrega las librerias que se ven en la carpeta las cuales son
+```bash
 hadoop-common-2.8.2.jar
 hadoop-common-2.8.2.test.jar
 hadoop-nfs-2.8.2.jar
-
+```
 # 5:despues de agregar estas librerias el siguiente paso es agregar las librerias de otra carpeta
 hadoop/share/hadoop/mapreduce
 las librerias son
